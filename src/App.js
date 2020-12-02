@@ -6,10 +6,12 @@ import requests from './requests';
 
 import Row from './Row';
 import Banner from './Banner';
+import Nav from './Nav';
 
 function App() {
   return (
     <div className='app'>
+      <Nav />
       <Banner />
       <Row
         title='NETFLIX ORIGINALS'
