@@ -26,3 +26,9 @@
 .row__poster:hover {
   transform: scale(1.09);
 }
+
+@media screen and (max-width: 400px) {
+  .row__poster {
+    /* max-height: 200px; */
+  }
+}
